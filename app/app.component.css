@@ -1,3 +1,7 @@
 p {
   font-family: Lato;
 }
+
+.ui.large.form {
+  background-color: aqua;
+}
