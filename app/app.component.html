@@ -9,15 +9,19 @@
     <label for="link">Link:</label>
     <input name="link" id="link" #newlink />
   </div>
-</form>
+
 <button
   (click)="addArticle(newtitle, newlink)"
   class="ui positive right floated button"
 >
   Submit link
 </button>
+
+</form>
+
 <div class="ui grid posts">
-  <app-article>
-    *ngFor="let article of articles" [article]="article">
+  <app-article
+  *ngFor="let article of articles"
+  [article]="article">
   </app-article>
-</div>
+  </div>
