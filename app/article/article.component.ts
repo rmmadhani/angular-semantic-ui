@@ -1,7 +1,7 @@
 import { Component, OnInit, HostBinding } from '@angular/core';
 
 @Component({
-  selector: 'app-article',
+  selector: 'app-article-B',
   templateUrl: './article.component.html',
   styleUrls: ['./article.component.css'],
 })
